@@ -1,0 +1,16 @@
+[package]
+name = "vulkan-nostd"
+version = "0.1.0"
+edition = "2024"
+authors = ["Matt Gates <suhteevah@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "no_std Vulkan 1.3 driver implementation in Rust"
+repository = "https://github.com/suhteevah/vulkan-nostd"
+keywords = ["vulkan", "gpu", "graphics", "no_std", "bare-metal"]
+categories = ["no-std", "os"]
+readme = "README.md"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
+spin = { version = "0.9", default-features = false }
+
